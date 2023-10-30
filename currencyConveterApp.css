@@ -1,0 +1,35 @@
+:host(){
+    --color:#f9ba48;
+    --foreground:#333333;
+}
+.slds-card{
+max-width: 370px;
+background-color: dimgray;
+margin:20px auto;
+border-radius: 15px;
+padding: 20px;
+}
+ 
+input{
+    margin-top: 20px;
+    color: var(--foreground);
+}
+ 
+.slds-grid{
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+}
+ 
+button{
+    margin-top: 20px;
+    color: var(--foreground);
+    background-color: var(--color);
+}
+ 
+.imgClass{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
