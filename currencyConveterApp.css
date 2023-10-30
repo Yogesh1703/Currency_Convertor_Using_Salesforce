@@ -33,3 +33,23 @@ button{
     display: block;
     margin: 10px auto;
 }
+.iconHook{  /*style hook*/
+    --slds-c-icon-color-background:var(--color);
+    --slds-c-icon-color-foreground:var(--foreground);
+    transform: rotate(45deg);
+}
+ 
+h2{
+    font-size: medium;
+    color: var(--color);
+    font-weight: 500;
+}
+ 
+p{
+    text-align: center;
+    font-size: x-large;
+}
+ 
+.amt{
+    color: red;
+}
