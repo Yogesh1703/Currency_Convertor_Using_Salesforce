@@ -30,25 +30,5 @@
                 <button class="slds-button slds-text-color_inverse slds-button_neutral slds-button_stretch" onclick={onClickHandler} >Convert</button>
             </div>
  
-            <template if:true={openModel}>
-                <div class="slds-modal slds-fade-in-open slds-backdrop">
-                    <div class="slds-modal__container">
-                        <div class="slds-modal__header">
-                            <!-- <lightning-button-icon icon-name="utility:close" variant="bare-inverse" alternative-text="Close this window" size="large" onclick={noClose} class="slds-modal__close"></lightning-button-icon> -->
-                            <h2>Result!</h2>
-                        </div>
-                        <div class="slds-modal__content slds-p-around_medium">
-                            <p><span class="amt">{amt}</span> {countryFrom} = <span class="amt">{result}</span> {countryTo}</p>
-                        </div>
-                        <div class="slds-modal__footer">
-                            <lightning-button-group>
-                                <lightning-button label="Back" variant="brand" onclick={back}></lightning-button>
-                            </lightning-button-group>
-                        </div>
- 
-                    </div>
-                </div>
-            </template>
- 
     </div>
 </template>
